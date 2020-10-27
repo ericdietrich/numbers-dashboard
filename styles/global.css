@@ -1,0 +1,63 @@
+body {
+    margin: 60px 0 0 0;
+    padding: 0;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    flex-direction: row;
+    background: #A49AFC;
+    width: 1200px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.table-result {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 40px;
+}
+
+.table-result .title {
+    font-family: 'Bebas Neue', monospace;
+    font-size: 72px;
+    letter-spacing: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #136B09;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+.table-result .result {
+    font-family: 'Bebas Neue', monospace;
+    font-size: 64px;
+    letter-spacing: 10px;
+    text-align: right;
+    color: #FFF;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5) ;
+}
+
+.box {
+    width: 420px;
+}
+
+.box:nth-child(-n + 2) {
+    margin-bottom: 120px;
+}
+
+.loading {
+    position: absolute;
+    top: 732px;
+    width: 1200px;
+    height: 20px;
+    background: radial-gradient(#FD6A6A, #FFC600);
+    border-radius: 0 0 8px 8px;
+    z-index: 100;
+}
