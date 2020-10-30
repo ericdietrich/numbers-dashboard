@@ -24,8 +24,12 @@ body {
     padding: 100px 40px;
 }
 
-.table-result .title {
+.table-result .box {
     font-family: 'Bebas Neue', monospace;
+    width: 420px;
+}
+
+.table-result .title {
     font-size: 72px;
     letter-spacing: 10px;
     text-align: left;
@@ -36,16 +40,11 @@ body {
 }
 
 .table-result .result {
-    font-family: 'Bebas Neue', monospace;
     font-size: 64px;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     text-align: right;
     color: #FFF;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5) ;
-}
-
-.box {
-    width: 420px;
 }
 
 .box:nth-child(-n + 2) {
